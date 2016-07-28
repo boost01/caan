@@ -1,0 +1,126 @@
+
+/*
+
+	styles for the 404.php - that clever error page..
+
+		http://corz.org/engine?section=php
+
+	this stylesheet is freely released under the creative commons license..
+
+		http://creativecommons.org/licenses/by-nc-sa/1.0/
+
+	(c) corz.org 2004 ->
+*/
+
+body {
+	font-size: 0.9em;
+	font-family: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif;
+	background: #fff7d1 url(/img/corz-bg.png) fixed no-repeat;
+	color: #665A4A;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	/* text-align: justify; */
+	}
+
+a:link      { color: #DD8422;      text-decoration: none; background: none; }
+a:visited   { color: #D5AF40;  text-decoration: none; background: none; }
+a:hover     { color: #FFB300;    text-decoration: underline; background: none; }
+a:active    { color: #ffffff;   text-decoration: none; background: #000000; }
+
+.container {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	float: none;
+	clear: both;
+	}
+
+.content-wide {
+	margin-top: 90px;
+	float: none;
+	clear: both;
+	margin-bottom: 0;
+	margin-left: 10%; 
+	margin-right: 10%;
+	}
+
+.two-column {
+	width: 100%;
+	}
+.left-column {
+	float: left;
+	padding-right: 3%;
+	text-align: justify;
+	width: 45%; 
+	}
+.right-column {
+	float: right;
+	padding-left: 3%;
+	text-align: justify;
+	width: 45%; 
+	}
+
+.left	{ float: left; }
+.right	{ float: right; }
+
+
+.centered { 
+	text-align: center; 
+	}
+
+h2, .h2, h3, .h3, h4, .h4 { /* Opera! */
+	font-family: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif;
+	margin-left: 0;
+	padding-left: 0;
+	}
+h2, .h2 {
+	color: #F4B55E;
+	background-color: transparent;
+	}
+h3, .h3 {
+	color: #F8C456;
+	background-color: transparent;
+	}
+h4, .h4 {
+	color: #EFBB05;
+	background-color: transparent;
+	}
+
+.centered { text-align: center; }
+
+img, table, div { border: 0; }
+
+form { margin: 0; } /* Opera gives form a margin, how nice! *sigh*/
+
+ /*
+ handy spacers..
+ */
+.small-space, .tiny-space, .clear {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	clear: both;
+	}
+.small-space { height: 25px; }
+.tiny-space { height: 10px; }
+.clear { font-size: 0px; }
+
+/* 
+the HUGE numeric..	*/
+.error {
+	font-family: "Trebuchet MS", Trebuchet, Verdana,  Tahoma, sans-serif; 
+	color: #F4AB3E;
+	text-align: right;
+	font-size: 12em; 
+	}
+
+.toplink {
+	font-size: 80%;
+	color: #F8C456; 
+	position: absolute; 
+	bottom: 5px; 
+	right: 9px; 
+	}
+

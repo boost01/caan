@@ -1,0 +1,6 @@
+AuthUserFile /home/content/87/12662787/html/prot/.htpasswd
+AuthGroupFile /dev/null
+AuthName EnterPassword
+AuthType Basic
+
+require valid-user

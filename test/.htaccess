@@ -1,0 +1,6 @@
+AuthUserFile /home/content/c/a/a/caancatmobile/html/test/.htpasswd
+AuthGroupFile /dev/null
+AuthName EnterPassword
+AuthType Basic
+
+require valid-user
